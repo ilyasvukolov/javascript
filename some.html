@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script>
+
+function solution(a,b,c) {
+        var D = (b*b) - 4 * a * c;
+
+        if(D > 0) {
+        	var x1 = (-b + Math.sqrt(D))/(2*a);
+        	var x2 = (-b - Math.sqrt(D))/(2*a);
+        	console.log(x1)
+        	console.log(x2)
+        } else if (D == 0) {
+        	var x1 = (-b + Math.sqrt(D))/(2*a) 
+        }
+         else {
+        	console.log("Корней нет!")
+        } 
+}
+
+solution(5,26,4);
+
+  	var a = ["Саша", "Гоша", "Поц с длинными волосами"]
+  	console.log(a[2])
+  	var rand = Math.floor(Math.random()*3)
+  	console.log(rand)
+
+  	var b = ["Камень", "Бумага", "Ножницы"]
+  	var rand = Math.floor(Math.random()*3)
+  	console.log(b[rand])
+
+  	function showMessage(message) {
+  		console.log(message)
+  	}
+
+  	showMessage("уакамфвмв")
+
+  	var myCar = new Object(),
+  	myCar["make"] = "Ford",
+  	myCar["model"] = "Mustang",
+  	myCar["year"] = 1969
+
+
+
+  	var auto = {
+  		make: "Ford",
+  		model: "Mustang",
+  		year: 1969
+  	}
+
+  	console.log(auto.make)
+
+
+
+	</script>
+</body>
+</html>
